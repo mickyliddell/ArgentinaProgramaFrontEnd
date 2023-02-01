@@ -1,0 +1,89 @@
+ /* Estilos generales */
+
+ section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-family: 'Luthier',cursive;
+}
+
+.seccion-oscura {
+  color: rgba(70, 255, 63, 0.61);
+  background-color: #1b1b32;
+}
+
+.seccion-clara {
+  color: rgb(226, 145, 145);
+  background-color: white;
+}
+
+.seccion-titulo {
+  font-size: 2rem;
+  padding: 15px 0;
+  font-family: 'Rubik Dirt', cursive;
+}
+
+.seccion-descripcion {
+  font-size: 1.2rem;
+  color: #584e4e;
+}
+
+.seccion-texto {
+  font-size: 1.2rem;
+}
+
+.btn-info {
+  font-size: 1.1rem;
+  margin: 20px;
+}
+
+.texto-negro {
+  color: black;
+}
+
+.texto-blanco {
+  color: white;
+}
+
+/* Seccion Hero */
+
+.hero {
+  background-color: #b99feb;
+  min-height: 450px;
+  text-align: center;
+}
+
+.hero-principal {
+  padding: 3rem;
+}
+.hero-inferior-imagen{
+  width: 600px;
+  height: 600px;
+}
+.hero-imagen-desarrollador {
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+}
+
+.hero-principal h2 {
+  font-size: 1.5rem;
+  color: #77095f;
+}
+
+/* Sobre mi */
+
+.sobre-mi {
+  height: 500px;
+  padding: 10px;
+}
+
+.sobre-mi .contenedor {
+  max-width: 600px;
+  text-align: center;
+}
