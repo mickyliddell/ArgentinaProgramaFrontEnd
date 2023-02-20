@@ -13,6 +13,9 @@ import { HysComponent } from './components/hys/hys.component';
 import { ProyectoComponent } from './components/proyecto/proyecto.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { LogoApComponent } from './logo-ap/logo-ap.component';
+import { LoginComponent } from './components/login/login.component';
+import {HttpClient, HttpClientModule } from'@angular/common/http';
+import { HomeComponent } from './components/home/home.component';
 
 
 @NgModule({
@@ -26,12 +29,15 @@ import { LogoApComponent } from './logo-ap/logo-ap.component';
     HysComponent,
     ProyectoComponent,
     FooterComponent,
-    LogoApComponent
+    LogoApComponent,
+    LoginComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgCircleProgressModule.forRoot({})
+    NgCircleProgressModule.forRoot({}),
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
